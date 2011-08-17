@@ -18,7 +18,6 @@ function startTimer(){
         }, 700);
     }
 
-    $(document).ready(function() {
         var refreshIntervalId = setInterval(function() {
             var currentCount = $('span').text();
             if (currentCount === '') {
@@ -46,13 +45,14 @@ function startTimer(){
             $('#stop').hide();
             $('#start').show();
         });
-    });
 }());
 }
 
-$('#stop').hide();
-$('#start').click(function(){
-    resetTimer();
-    $("#start").hide();
-    startTimer();
+$(document).ready(function(){
+	$('#stop').hide();
+	$('#start').click(function(){
+		resetTimer();
+		$("#start").hide();
+		startTimer();
+	});
 });
