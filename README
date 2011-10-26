@@ -1,3 +1,5 @@
 This will create a timer that will last for 60 seconds. When 20 seconds are left it will turn yellow, when 10 seconds are left it will turn red. At zero it will start flashing until it is acknowledged.
 
-[http://jsfiddle.net/guanome/gHyvH/](Example)
+
+<h1>Example</h1>
+http://jsfiddle.net/guanome/gHyvH/
